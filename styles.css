@@ -46,6 +46,10 @@ section {
     animation: fadeIn 2s ease-in;
 }
 
+#goals{
+    padding-inline: 20px;
+}
+
 #goals ul {
     list-style-type: disc;
     margin-left: 20px;
@@ -113,6 +117,7 @@ a:hover {
     display: flex !important;
     align-items: center;
      gap: 10px;
+
 }
 
 .info h2{
@@ -122,7 +127,7 @@ a:hover {
     color: #6b6a6b;
     gap: 20px !important;
     display: flex;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 .footer{
     background: #000000;
@@ -132,5 +137,18 @@ a:hover {
 @media (max-width: 600px) {
     main {
         padding: 1em;
+    }
+    .info {
+        display: flex !important;
+       flex-direction: column;
+         margin-inline: 10px;
+         padding-top:15px ;
+         padding-bottom: 20px;
+    }
+    .infoa{
+        color: #6b6a6b;
+        gap: 12px !important;
+        display: flex;
+        padding-left: 20px;
     }
 }
